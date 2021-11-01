@@ -1,0 +1,48 @@
+.TH HSH 1 "1 Nov 2021" "0.1" "HSH"
+.SH NAME
+.B hsh
+- command line interpreter (simple shell)
+.SH SYNOPSIS
+.B ./hsh
+.SH DESCRIPTION
+The hsh shell is a simple shell which serves as a user interface through which users interact with Uni-like operating systems. It is a cpmmand line interpreter that executes commands and also scripting languahe.
+
+.B Overview
+
+The shell prompts users to type commands directly into the interface or through a file, reads lines from the file or terminal, then executes the command
+
+.B Interactive mode
+
+A user can interact with the shell by typing inputs using the keybooard
+
+.B Non-interactive mode
+
+.SH RETURN VALUE
+The shell returns the error code given by the last completed command followed by either ctrl-d or exit with no status code.
+
+.SH
+The shell has some builtins that replicate other unix shell builtins
+
+.SH SYNTAX
+$ <command> <flags or options> <argument 1> <argument 2> ...
+OR NON-INTERACTIVE MODE:
+$ <command> | ./hsh
+.SS
+Interactive mode:
+
+.SS
+EXAMPLE 1:
+$ /bin/ls
+.SS
+EXAMPLE 2:
+$ ls -l
+
+.SH EXIT
+
+The shell exits with a non zero exit status when errors are detected. Depending on the shell, the execution may be aborted
+
+.SH BUGS
+No known bugs
+
+.SH AUTHOR
+Kehinde Rahimot Adebisi (Kehinde95@gmail.com)
