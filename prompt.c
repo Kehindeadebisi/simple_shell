@@ -29,4 +29,5 @@ int main(void)
 		getline(&buffer, &buff_size, stdin);
 		printf("%s", buffer);
 	}
+	return (0);
 }
