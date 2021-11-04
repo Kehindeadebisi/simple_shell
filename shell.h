@@ -7,7 +7,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <signal.h>
-/*char i;*/
+
 char* get_cmd();
 char** tokenize_cmd(char *str);
 void c_shell();

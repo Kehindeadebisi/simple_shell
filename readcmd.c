@@ -1,4 +1,10 @@
 #include "shell.h"
+/**
+ * get_cmd - gets a command from user
+ *
+ * Return: string
+ */
+
 char* get_cmd()
 {
 char *string;

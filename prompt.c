@@ -1,4 +1,9 @@
 #include "shell.h"
+/**
+ * c_shell - prompt
+ *
+ * Return: nothing
+ */
 
 void c_shell()
 {
