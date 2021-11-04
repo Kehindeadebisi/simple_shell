@@ -54,7 +54,7 @@ if(NULL == argv[i]) waitpid(pid, NULL, 0);
 
 void get_cmd(){
 char **string_pointer = &string;
-write(1,"Shell>\t", 10);
+write(1,"#cisfun$ ", 10);
 string = (char*) malloc (size);
 getline(string_pointer,&size,stdin);
 if ((strlen(string) > 0) && (string[strlen (string) - 1] == '\n'))
@@ -70,11 +70,4 @@ argv[i] = ptr;
 i++;
 ptr = strtok(NULL, " ");
 }
-
-/*if(!strcmp("&", argv[i-1])){
-argv[i-1] = NULL;
-argv[i] = "&";
-}else{
-argv[i] = NULL;
-}*/
 }
