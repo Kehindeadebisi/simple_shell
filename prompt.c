@@ -2,7 +2,7 @@
 /**
  * c_shell - prompt
  *
- * Return: nothing
+ * Return: 0
  */
 
 void c_shell()
